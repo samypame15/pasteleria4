@@ -1,0 +1,105 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    
+    }
+    
+    body{
+    
+      background-color: rgb(247, 235, 241);
+    
+      @font-face {
+        font-family: damile;
+        src: url(./assets/fonts/Roboto-Black.ttf)
+      }
+    }
+    
+    .container{
+  
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    
+    .navbar {
+        background-color: #edc5d6; 
+      }
+      
+    .nav-link {
+        color: #b024c9; 
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-weight: 25px;
+        padding: 15px;
+      }
+      
+      .nav-link:hover {
+        color: #f180c2; 
+      }
+      
+      .navbar-brand {
+        font-weight: bold; 
+        font-size: 1.5rem; 
+      }
+      
+      header{
+        background-color: rgb(251, 238, 246);
+      }
+
+.container h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.tex-center{
+text-align: center;
+justify-content: center;
+
+}
+
+.footer{
+    background-color: rgb(222, 190, 199);
+    grid-area: footer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a{
+    display: inline-block;
+    margin: 0 7px 0 7px;
+}
+
+.footer a i{
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.footer a i:hover{
+    box-shadow: 0px 0px 15px rgb(222, 190, 199);
+}
+
+.fa-brands{
+    width: 28px;
+    height: 28px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fa-facebook{
+    background-image: url(../icono/facebook.png);
+  }
+  
+  .fa-square-instagram{
+    background-image: url(../icono/instagram.png);
+  }
+  
+  .fa-square-whatsapp{
+    background-image: url(../icono/whatsapp.png);
+  }
+  

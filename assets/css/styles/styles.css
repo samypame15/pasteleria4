@@ -1,0 +1,23 @@
+.banner{
+    height: 38vh;
+    font-size: 30px;
+    background-image: url(/assets/multimedia/images-banner-desktop.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    }
+    
+    .banner h2{
+        font-family: damile;
+    src: url(./assets/fonts/Poppins-BlackItalic.ttf);
+    font-size: 3rem;
+    color: crimson;
+    padding: 20px;
+    background-image: linear-gradient(black,transparent);
+    }
